@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TheSwarm</title>
+  <meta name="description" content="An AI software company that builds and operates autonomous multi-agent systems and the developer tooling and infrastructure services derived from them.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="TheSwarm">
+  <meta property="og:description" content="An AI software company that builds and operates autonomous multi-agent systems and the developer tooling and infrastructure services derived from them.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='6' fill='%23f5f5f5'/%3E%3Ccircle cx='50' cy='15' r='4' fill='%23f5f5f5'/%3E%3Ccircle cx='80' cy='35' r='4' fill='%23f5f5f5'/%3E%3Ccircle cx='80' cy='65' r='4' fill='%23f5f5f5'/%3E%3Ccircle cx='50' cy='85' r='4' fill='%23f5f5f5'/%3E%3Ccircle cx='20' cy='65' r='4' fill='%23f5f5f5'/%3E%3Ccircle cx='20' cy='35' r='4' fill='%23f5f5f5'/%3E%3Cg stroke='%23f5f5f5' stroke-width='1.5' fill='none'%3E%3Cline x1='50' y1='50' x2='50' y2='15'/%3E%3Cline x1='50' y1='50' x2='80' y2='35'/%3E%3Cline x1='50' y1='50' x2='80' y2='65'/%3E%3Cline x1='50' y1='50' x2='50' y2='85'/%3E%3Cline x1='50' y1='50' x2='20' y2='65'/%3E%3Cline x1='50' y1='50' x2='20' y2='35'/%3E%3C/g%3E%3C/svg%3E">
+  <style>
+    :root {
+      --bg: #0a0a0a;
+      --fg: #f5f5f5;
+      --dim: #8a8a8a;
+      --line: #2a2a2a;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { height: 100%; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", "Inter", system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1.5rem 5rem;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    main {
+      max-width: 580px;
+      width: 100%;
+      text-align: center;
+    }
+    .glyph {
+      width: 88px;
+      height: 88px;
+      margin: 0 auto 2.5rem;
+      opacity: 0.95;
+    }
+    h1 {
+      font-size: clamp(2rem, 5vw, 2.75rem);
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      margin-bottom: 1.75rem;
+    }
+    p {
+      font-size: clamp(1rem, 2vw, 1.1rem);
+      color: var(--fg);
+      margin-bottom: 1.25rem;
+    }
+    p.dim {
+      color: var(--dim);
+      font-size: 0.95rem;
+      margin-top: 2rem;
+    }
+    footer {
+      position: fixed;
+      bottom: 1.5rem;
+      left: 0;
+      right: 0;
+      text-align: center;
+      color: var(--dim);
+      font-size: 0.78rem;
+      letter-spacing: 0.04em;
+    }
+    @media (prefers-reduced-motion: no-preference) {
+      .glyph {
+        animation: breathe 4s ease-in-out infinite;
+      }
+      @keyframes breathe {
+        0%, 100% { opacity: 0.95; transform: scale(1); }
+        50%      { opacity: 0.7;  transform: scale(0.985); }
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <svg class="glyph" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <g stroke="#f5f5f5" stroke-width="1.2" fill="none">
+        <line x1="50" y1="50" x2="50" y2="15"/>
+        <line x1="50" y1="50" x2="80" y2="35"/>
+        <line x1="50" y1="50" x2="80" y2="65"/>
+        <line x1="50" y1="50" x2="50" y2="85"/>
+        <line x1="50" y1="50" x2="20" y2="65"/>
+        <line x1="50" y1="50" x2="20" y2="35"/>
+      </g>
+      <g fill="#f5f5f5">
+        <circle cx="50" cy="15" r="3.5"/>
+        <circle cx="80" cy="35" r="3.5"/>
+        <circle cx="80" cy="65" r="3.5"/>
+        <circle cx="50" cy="85" r="3.5"/>
+        <circle cx="20" cy="65" r="3.5"/>
+        <circle cx="20" cy="35" r="3.5"/>
+        <circle cx="50" cy="50" r="6"/>
+      </g>
+    </svg>
+    <h1>TheSwarm</h1>
+    <p>An AI software company that builds and operates autonomous multi-agent systems, along with the developer tooling and infrastructure services derived from them.</p>
+    <p class="dim">More soon.</p>
+  </main>
+  <footer>&copy; Vanced Corporation</footer>
+</body>
+</html>
