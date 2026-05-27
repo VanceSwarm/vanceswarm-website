@@ -20,11 +20,11 @@ Substrate over volume. Quality bar on every release. No hype. We add things slow
 
 ## About this repository
 
-The source for [vanceswarm.com](https://vanceswarm.com) — a single static page. No JavaScript, no analytics, no trackers. Intentional.
+The source for [vanceswarm.com](https://vanceswarm.com) — a single static page. No analytics, no trackers, no external requests. Intentional.
 
 | | |
 |---|---|
-| Stack | HTML, inline CSS, inline SVG. No build step. |
+| Stack | HTML, inline CSS, inline SVG, minimal inline JS (visual effects only — mouse-follow + reduced-motion respect). No build step. |
 | Hosting | GitHub Pages |
 | Transport | HTTPS via Let's Encrypt |
 
